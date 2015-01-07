@@ -1,0 +1,47 @@
+{
+    "categories":[
+        {
+            "name":"men",
+            "templateName":"2coloum layout",
+            "template":"<div class='col-lg-5 content-tile-large'><img ng-src='{{rootDirectory}}{{content.src}}'/><h2>{{content.name}}</h2><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><p><a class='btn btn-primary' href='#' role='button'>View details &raquo</a></p></div>",
+            "docs":[
+                {"name":"Heading1","src":"men.jpeg","price":12.7},
+                {"name":"Heading2","src":"men.jpeg","price":15.7},
+                {"name":"Heading3","src":"men.jpeg","price":11.7},
+                {"name":"Heading3","src":"men.jpeg","price":11.7}
+            ]
+        },
+        {
+            "name":"women",
+            "templateName":"5coloum layout",
+            "template":"<div class='col-lg-2 content-tile-small '><img ng-src='{{rootDirectory}}{{content.src}}'/><h2>{{content.name}}</h2><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><p><a class='btn btn-primary' href='#' role='button'>View details &raquo</a></p></div>",
+            "docs":[
+                {"name":"Heading 1","src":"women.jpeg","price":12.7},
+                {"name":"Heading 2","src":"women.jpeg","price":15.7},
+                {"name":"Heading 3","src":"women.jpeg","price":19.7},
+                {"name":"Heading 4","src":"women.jpeg","price":13.7},
+                {"name":"Heading 5","src":"women.jpeg","price":20.7}
+			]
+        },
+        {
+            "name":"music",
+            "templateName":"1column layout",
+            "template":"<div class='col-lg-12 content-tile-list'><img ng-src='{{rootDirectory}}{{content.src}}'/><h2>{{content.name}}</h2><p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p><p><a class='btn btn-primary' href='#' role='button'>View details &raquo</a></p></div>",
+            "docs":[
+                {"name":"Heading1","src":"music.jpeg","price":12.7},
+                {"name":"Heading2","src":"music.jpeg","price":15.7},
+                {"name":"Heading3","src":"music.jpeg","price":11.7}
+			]
+        },
+        {
+            "name":"images",
+            "templateName":"1 column image layout",
+            "template":"<div class='entry-photo'><h2>&nbsp</h2><div class='entry-img'><span><a href='{{rootDirectory}}{{content.data}}'><img ng-src='{{rootDirectory}}{{content.data}}' alt='entry photo'></a></span></div><div class='entry-text'><div class='entry-title'>{{content.title}}</div><div class='entry-copy'>{{content.description}}</div></div></div>",
+            "docs":[
+                {"content_type" : "image", "title" : "Image 00", "data" : "temp-photo.jpg"},
+                {"content_type" : "image", "title" : "Image 01", "data" : "temp-photo.jpg"},
+                {"content_type" : "image", "title" : "Image 02", "data" : "temp-photo.jpg"}
+			]
+        }
+    ]
+}
